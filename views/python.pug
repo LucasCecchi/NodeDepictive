@@ -1,0 +1,26 @@
+extends styles
+
+block content
+  body
+    div(class='main')
+      div(class='welcome')
+        h1 <em> Depictive Web </em>
+        p(class='lead') Create a network below and run Depictive from your browser
+    div(id='wrapper')
+      div(class='pars' id="thispars")
+        h2(align = 'center') Network
+        hr
+        div(class='createNodes')
+          t4(id='numTitle') Number of Nodes
+          span 2
+          input(type='range' min='2' max='25' step='1' value='2' form='numNodes'
+          id='numInput' onchange='$("#currentNodeVal").html(this.value)' name='test')
+          span 25
+          br
+          span(id='currentNodeVal') 2
+        button(id='createNetwork' onclick='renderNetwork()') Create Network
+        hr
+        form(id='loader' method='POST' action='')
+      div(class='results')
+        h2(align = 'center') Results
+        hr

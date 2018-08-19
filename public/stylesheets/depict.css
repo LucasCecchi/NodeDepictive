@@ -1,0 +1,42 @@
+.pars{
+  float: left;
+  text-align: center;
+  border-radius: 1em;
+  background-color: #eee;
+
+  width: 30%;
+  height: 100%;
+  padding: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  min-width: 276px;
+}
+
+#wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+#numTitle{
+  position: absolute;
+  text-align: center;
+  margin-left: 1%;
+}
+
+#numInput{
+  margin-top: 10%;
+}
+
+
+.results{
+  float: right;
+  text-align: center;
+  height: 100vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2.5%;
+  margin-top: 2%;
+  min-width: 40%;
+}
